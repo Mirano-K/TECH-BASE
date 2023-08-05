@@ -8,9 +8,9 @@
     
 <?php
 
-$dsn = 'mysql:dbname=tb250158db;host=localhost';
-$user = 'tb-250158';
-$password = 'NUs8h9mzhp';
+$dsn = 'mysql:dbname=データベース名;host=localhost';
+$user = 'ユーザ名';
+$password = 'パスワード';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
 $sql = "CREATE TABLE IF NOT EXISTS Mission5"
