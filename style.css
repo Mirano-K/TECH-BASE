@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+
+    
+h2 {
+    color: #fa8072;
+    /*border-top: 2px dashed #191970;*/
+    }
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #FAFAFA;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.1;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  
+  
+}
+
+.h1 {
+  	color: #6495ed;
+	/*padding-left:20px;*/
+	/*border-left: 20px solid #191970;*/
+  	/*border-bottom: 2px dashed #191970;*/
+  	/*padding-right: 50px;*/
+  	/*text-align: center;*/
+    }
+  
+.top-wrapper {
+    padding:150px 0 150px 0;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    }
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    }
+
+.top-wrapper p {
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 40px;
+    }
+
+.btn-wrapper {
+    text-align: center;
+    }
+
+.btn-wrapper p {
+    margin-bottom: 20px;
+    }
+
+.signup {
+    background-color: #6495ed;
+    }
+
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    }
+
+.btn:hover {
+    opacity: 1;
+    }
+
+.btn-submit{
+    padding: 4px 10px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background-color: #6495ed;
+    cursor: pointer;
+    font-size: 20px;
+
+    }
+
+.btn-submit:hover {
+    opacity: 1;
+    }
+
+.fa {
+    margin-right: 5px;
+    }
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34,49,52);
+    opacity: 0.9;
+    /* position :fixed; */
+    top: 0;
+    left: 0;
+    z-index: 10;
+    }
+
+.logo {
+  width: 124px;
+}
+
+.header-left {
+  float: left;
+  margin-left: -15px;
+}
+
+.header-left img{
+  height: 65px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+
+/* timeline.php */
+
+.box1 {
+    background-color:white;
+    border: solid 1px #D9DFE1;
+    padding: 2% 0%;
+    width: 100%;
+}
+
+.box2 {
+    background-color:white;
+    border: solid 1px #D9DFE1;
+    margin-top: 30px;
+    padding: 2% 0%;
+    width: 100%;
+
+}
+
+
+.all {	
+    margin-top0 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    min-width: 1000px;
+    max-width: 50%;
+    color: #555;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.a {
+    width: 260px;
+    float: right;
+}
+
+.b {
+    width: 64px;
+    float: left;
+}
+
+
+
+.left1 {
+    padding-right:80px;
+    font-size: 44px;
+    }
+
+.left2 {
+    font-size: 44px;
+    }
+    
+.left3 {
+    padding-right:120px;
+    font-size: 44px;
+    
+    }    
+    
+.main {	
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 50%;
+    height: 40%;
+    border: solid 2px #555;
+    box-sizing: border-box;
+    text-align: center;
+    display: table;
+    
+    background-color:white;
+    }
+
+.inner {
+    vertical-align: middle;
+    display: table-cell;
+    }
+    
+.title {
+    font-size: 70px;
+    color: #6495ed;
+    font-weight:bold
+    }
+    
+input.left { 
+
+width: 200px;
+height: 3em; 
+}
+
+
+/* posthorm.php */
+
+.post-form{
+    margin: 10px 300px;
+    border: solid 3px #000000;
+
+}
+
+/* footer */
+    
+footer img {
+  width: 125px;
+  
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+  
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(34,49,52,0.9);
+}
